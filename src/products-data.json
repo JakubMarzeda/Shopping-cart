@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Apple Airpods Pro 2",
+        "price": 1140,
+        "image": "../../../public/images/airpods.png"
+    },
+    {
+        "id": 2,
+        "name": "Apple iPhone 15 Pro",
+        "price": 9000,
+        "image": "../../../public/images/iphone.png"
+    },
+    {
+        "id": 3,
+        "name": "Lenovo Legion Pro7",
+        "price": 15800,
+        "image": "../../../public/images/laptop.png"
+    },
+    {
+        "id": 4,
+        "name": "G4M3R ELITE",
+        "price": 8500,
+        "image": "../../../public/images/pc.png"
+    },
+    {
+        "id": 5,
+        "name": "Samsung Galaxy S23 Ultra",
+        "price": 6500,
+        "image": "../../../public/images/samsung.png"
+    },
+    {
+        "id": 6,
+        "name": "SteelSeries Arctis Pro Wireless",
+        "price": 900,
+        "image": "../../../public/images/sluchawki.png"
+    }
+]

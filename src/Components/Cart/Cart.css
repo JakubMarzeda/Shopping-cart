@@ -1,0 +1,133 @@
+.container-cart-products{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cart-products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border: 2px solid black;
+    background-color: #8A2BE2;
+    border-radius: 10px;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-products-header, .products{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 98%;
+    border-bottom: 2px solid black;
+}
+
+.products > .info-not-product-in-cart{
+    color: white;
+}
+
+.price-products-container{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
+
+.product-in-cart{
+    display: flex;
+    width: 60%;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.product-in-cart img{
+    width: 60px;
+    height: 60px;
+}
+
+.product-in-cart button{
+    font-size: large;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.product-in-cart .add-product{
+    background-color: #119E00;
+}
+
+.product-in-cart .substract-product{
+    background-color: red;
+}
+
+.product-in-cart .add-product:active{
+    transform: scale(1.05);
+}
+
+.product-in-cart .substract-product:active{
+    transform: scale(1.05);
+}
+
+.product-in-cart span{
+    font-size: large;
+}
+
+.change-count-products-cart{
+    display: flex;
+    gap: 10px;
+}
+
+.count-sum-price-of-one-product{
+    display: flex;
+    gap: 5px;
+}
+
+.product-info-in-cart{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.price-products-container span{
+    font-size: 22px;
+    color: white;
+}
+
+.delete-product img {
+    width: 35px;
+    height: 35px;
+    transition: ease-in-out;
+}
+
+.delete-product img:active{
+    transform: scale(1.05);
+}
+
+.clear-all-products button{
+    margin-top: 10%;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    transition: ease-in-out;
+}
+
+.clear-all-products button:active{
+    transform: scale(1.05);
+}
